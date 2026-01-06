@@ -1,0 +1,6 @@
+mode=drun
+insensitive=true
+allow_images=true
+image_size=32
+allow_markup=true
+hide_scroll=true
