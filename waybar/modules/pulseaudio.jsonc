@@ -19,7 +19,8 @@
   },
 
   "pulseaudio":{
-    "format":"  {volume}% ",
+    "format":"<span font_desc='Symbols Nerd Font 16'> </span> {volume}% ",
+    "markup": "pango",
     "tooltip": false
   }
 }

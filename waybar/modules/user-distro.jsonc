@@ -13,13 +13,14 @@
   },
 
   "custom/distro":{
-    "format":"  ",
+    "format":"<span font_desc='Symbols Nerd Font 24'> 󰣇 </span>",
+    "markup": "pango",
     "tooltip":false
   },
 
   "user":{
     "interval":60,
-    "format": " {user} Inicio: {up_H}:{up_M} Session: {work_H}:{work_M} ",
+    "format": " {user} Horas con el culo sentado: {work_H}:{work_M} ",
     "icon": true,
     "avatar": "$HOME/imaguss.face.icon",
     "open-path": false

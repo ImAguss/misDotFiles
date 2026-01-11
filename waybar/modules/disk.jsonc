@@ -14,19 +14,19 @@
   },
 
   "custom/icondisk":{
-    "format":"  ",
+    "format":"<span font_desc='Symbols Nerd Fonts 14'></span> ",
     "tooltip": false
   },
 
   "disk#nvme":{
-    "format":": {percentage_used}/{percentage_free} : {used}/{free}",
+    "format":" NvME.2: {percentage_used}%/{percentage_free}% : {used}/{free}",
     "unit": "GB",
     "tooltip": false,
     "path": "/"
   },
 
   "disk#duro1":{
-    "format":"{percentage_used}/{percentage_free} : {used}/{free}",
+    "format":" || Disco Duro: {percentage_used}%/{percentage_free}% : {used}/{free}",
     "unit": "GB",
     "tooltip": false,
     "path": "/mnt/MESSI/"

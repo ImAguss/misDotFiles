@@ -15,7 +15,7 @@
   },
 
   "custom/icontemperature":{
-    "format": " ",
+    "format": "<span font_desc='Symbols Nerd Font 14'></span>",
     "tooltip": false
   },
 
