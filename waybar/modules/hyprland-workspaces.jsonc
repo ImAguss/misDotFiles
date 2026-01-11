@@ -1,0 +1,19 @@
+{
+  "hyprland/workspaces":{
+    "active-only": true,
+    "format": "  {id} {windows}",
+    "workspace-taskbar":{
+      "enable": true,
+      "update-active-window": true,
+      "format": "{icon}",
+      "orientation": "horizontal",
+      "icon-size": 21
+    }
+  },
+
+  "hyprland/window#title":{
+    "format": "{title}",
+		"max-length": 30,
+    "icon": false
+  }
+}

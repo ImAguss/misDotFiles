@@ -1,0 +1,26 @@
+{
+
+  "group/memoryinfo":{
+    "orientation":"horizontal",
+    "modules":[
+      "custom/iconmemory",
+      "memory"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "custom/iconmemory":{
+    "format":" ",
+    "tooltip": false
+  },
+
+  "memory":{
+    "format": ": {percentage}% || {used} || {total} || {avail}",
+    "tooltip":false
+  }
+
+
+}

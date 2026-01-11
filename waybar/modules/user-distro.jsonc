@@ -1,0 +1,28 @@
+{
+
+  "group/distro-user":{
+    "orientation": "horizontal",
+    "modules":[
+      "custom/distro",
+      "user"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "custom/distro":{
+    "format":"  ",
+    "tooltip":false
+  },
+
+  "user":{
+    "interval":60,
+    "format": " {user} Inicio: {up_H}:{up_M} Session: {work_H}:{work_M} ",
+    "icon": true,
+    "avatar": "$HOME/imaguss.face.icon",
+    "open-path": false
+  }
+
+}

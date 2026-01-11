@@ -1,0 +1,25 @@
+{
+  "group/ventanas":{
+    "orientation": "horizontal",
+    "modules":[
+      "hyprland/window#icon",
+      "hyprland/window#title"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "hyprland/window#icon":{
+    "format": "",
+    "icon": true,
+    "icon-size": 30
+  },
+
+  "hyprland/window#title":{
+    "format": "{title}",
+    "max-length": 24,
+    "icon": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+
+  "group/temperaturegrupo":{
+    "orientation": "horizontal",
+    "modules":[
+      "custom/icontemperature",
+      "temperature#cpu",
+      "temperature#gpu",
+      "temperature#nvme"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "custom/icontemperature":{
+    "format": " ",
+    "tooltip": false
+  },
+
+  "temperature#cpu":{
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "format": " CPU: {temperatureC}󰔄 | {temperatureF}󰔅 | {temperatureK}󰔆 ",
+    "critical-threshold": 90,
+    "warning-threshold": 75,
+    "tooltip": false
+  },
+
+  "temperature#gpu":{
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "format": " GPU: {temperatureC}󰔄 | {temperatureF}󰔅 | {temperatureK}󰔆",
+    "critical-threshold": 90,
+    "warning-threshold": 80,
+    "tooltip": false
+  },
+
+  "temperature#nvme":{
+    "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+    "format": " NVME: {temperatureC}󰔄 | {temperatureF}󰔅 | {temperatureK}󰔆",
+    "critical-threshold": 65,
+    "warning-threshold": 75,
+    "tooltip": false
+  }
+  
+}

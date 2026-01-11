@@ -1,0 +1,25 @@
+{
+
+  "group/audio":{
+    "orientation": "horizontal",
+    "modules":[
+      "pulseaudio",
+      "pulseaudio/slider"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "pulseaudio/slider":{
+    "min": 0,
+    "max": 150,
+    "orientation": "horizontal"
+  },
+
+  "pulseaudio":{
+    "format":"  {volume}% ",
+    "tooltip": false
+  }
+}

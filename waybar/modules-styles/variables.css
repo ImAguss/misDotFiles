@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Currents Color Palette – Waybar
+   Inspirada en Tame Impala – Currents
+   ========================================================================== */
+
+/* Backgrounds (oscuros, profundidad) */
+@define-color bg0 #1f1a24;
+/* fondo principal (bar) */
+@define-color bg1 #2a2232;
+/* módulos inactivos */
+@define-color bg2 #4a3a57;
+/* separadores / hover */
+
+/* Text */
+@define-color fg0 #e6e1eb;
+/* texto principal */
+@define-color fg1 #a0a0a2;
+/* texto secundario */
+
+/* Purples (identidad Currents) */
+@define-color purple0 #6f4683;
+/* base */
+@define-color purple1 #886593;
+/* activo */
+@define-color purple2 #b58ac6;
+/* highlight */
+
+/* Accents emocionales */
+@define-color red0 #e23e64;
+/* alertas / urgencia */
+@define-color orange0 #e69d25;
+/* atención / energía */
+@define-color yellow0 #f2d16b;
+/* estado positivo */
+
+/* Balance frío */
+@define-color cyan0 #4fb3a5;
+/* conectividad / estado */
+@define-color blue0 #5fafd7;
+/* info / neutral activo */

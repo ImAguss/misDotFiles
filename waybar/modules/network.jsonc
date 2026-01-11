@@ -1,0 +1,29 @@
+{
+
+  "group/networkgrupo":{
+    "orientation": "horizontal",
+    "modules": [
+      "custom/networkicon",
+      "network"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "custom/networkicon":{
+    "format": " 󰀂 ",
+    "tooltip": false
+  },
+
+  "network":{
+    "format":"Interfaz: {ifname}",
+    "format-ethernet": ": 󰈀 Interfaz: {ifname} | Conectado Via Ethernet | IP: {ipaddr} | Subida: {bandwidthDownBytes} | Bajada: {bandwidthUpBytes}",
+    "format-wifi": ":  Interfaz: {ifname} | Wifi: {essid} | IP: {ipaddr} | Subida: {bandwidthDownBytes} | Bajada: {bandwidthUpBytes}",
+    "format-disconnected":"󰖪 Interfaz Desconectada",
+    "format-disabled": "󰖪 Interfaz Deshabilitada",
+    "tooltip": false
+  }
+
+}

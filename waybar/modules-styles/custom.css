@@ -1,0 +1,11 @@
+#custom-left_div.1,
+#custom-right_div.1 {
+  color: @red0;
+}
+
+#custom-left_div,
+#custom-left_inv,
+#custom-right_div,
+#custom-right_inv {
+  font-size: 24px;
+}

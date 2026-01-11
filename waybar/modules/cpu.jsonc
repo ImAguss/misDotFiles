@@ -1,0 +1,25 @@
+{
+
+  "group/cpuinfo":{
+    "orientation": "horizontal",
+    "modules":[
+      "custom/cpu-icon",
+      "cpu"
+    ],
+    "drawer":{
+      "transition-duration":500,
+      "click-to-reveal": true
+    }
+  },
+
+  "custom/cpu-icon":{
+    "format":" ",
+    "tooltip": false
+  },
+
+  "cpu":{
+    "format":": {usage}% || {max_frequency} || {avg_frequency} || {min_frequency} ",
+    "tooltip": false
+  }
+
+}

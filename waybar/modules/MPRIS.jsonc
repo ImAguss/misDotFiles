@@ -1,0 +1,43 @@
+{
+	"mpris": {
+		// "player":
+		// "ignored-players":
+		// "interval":
+		"format": "{player_icon} {title} ",
+		"format-paused": "{status_icon} {title} ",
+		"tooltip-format": "Playing: {title} - {artist}",
+		"tooltip-format-paused": "Paused: {title} - {artist}",
+		// "enable-tooltip-len-limits":
+		// "on-click":
+		// "on-click-middle":
+		// "on-click-right":
+		"player-icons": {
+			"default": "󰐊"
+		},
+		"status-icons": {
+			"paused": "󰏤"
+		},
+		// "artist-len":
+		// "album-len":
+		// "title-len":
+		// "dynamic-len":
+		// "dynamic-order":
+		// "dynamic-separator":
+		// "dynamic-importance-order":
+		// "truncate-hours":
+		// "ellipsis":
+		// "rotate":
+		// "min-length":
+		"max-length": 30
+		// "align":
+		// "justify":
+		// "expand":
+	},
+
+    "custom/mpris-fallback": {
+      "exec": "~/.config/waybar/mpris_fallback.sh",
+      "interval": 5,
+      "exec-if": "! ~/.config/waybar/mpris_running.sh",
+      "return-type": "text"
+    }
+}

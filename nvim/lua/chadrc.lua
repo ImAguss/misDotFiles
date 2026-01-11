@@ -3,7 +3,7 @@ local M = {}
 
 -- Tus configuraciones base46
 M.base46 = {
-  theme = "onenord",
+  theme = "mountain",
   transparency = true,
   statusline = {
     theme = "vscode_colored"

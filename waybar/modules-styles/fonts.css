@@ -1,0 +1,48 @@
+* {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+  color: @purple2;
+  animation: currents-color-cycle 14s ease-in-out infinite alternate;
+}
+
+#mpris,
+#user,
+#submap,
+#user {
+  font-size: 16px;
+}
+
+@keyframes currents-color-cycle {
+  0% {
+    color: @purple0;
+  }
+
+  15% {
+    color: @purple1;
+  }
+
+  30% {
+    color: @red0;
+  }
+
+  45% {
+    color: @orange0;
+  }
+
+  60% {
+    color: @yellow0;
+  }
+
+  75% {
+    color: @cyan0;
+  }
+
+  90% {
+    color: @blue0;
+  }
+
+  100% {
+    color: @purple2;
+  }
+}

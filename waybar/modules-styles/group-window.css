@@ -1,0 +1,10 @@
+#workspaces .taskbar-window.active {
+  border: 1px solid @red0;
+  border-radius: 5px;
+  padding: 2.5px;
+  margin: 5px;
+}
+
+#workspaces .taskbar-window {
+  padding: 1.5px;
+}

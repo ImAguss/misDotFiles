@@ -1,0 +1,60 @@
+#pulseaudio-slider {
+  padding: 0;
+  margin: 0;
+}
+
+#pulseaudio-slider slider {
+  min-height: 0px;
+  min-width: 0px;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+  min-height: 10px;
+  min-width: 80px;
+  border-radius: 5px;
+  background: @bg1;
+}
+
+#pulseaudio-slider highlight {
+  min-width: 10px;
+  border-radius: 5px;
+  animation: currents-background-cycle 12s ease-in-out infinite alternate;
+}
+
+@keyframes currents-background-cycle {
+  0% {
+    background: @purple0;
+  }
+
+  15% {
+    background: @purple1;
+  }
+
+  30% {
+    background: @red0;
+  }
+
+  45% {
+    background: @orange0;
+  }
+
+  60% {
+    background: @yellow0;
+  }
+
+  75% {
+    background: @cyan0;
+  }
+
+  90% {
+    background: @blue0;
+  }
+
+  100% {
+    background: @purple2;
+  }
+}

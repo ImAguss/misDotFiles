@@ -1,0 +1,34 @@
+{
+
+  "group/disks":{
+    "orientation": "horizontal",
+    "modules":[
+      "custom/icondisk",
+      "disk#nvme",
+      "disk#duro1"
+    ],
+    "drawer":{
+      "transition-duration": 500,
+      "click-to-reveal": true
+    }
+  },
+
+  "custom/icondisk":{
+    "format":"  ",
+    "tooltip": false
+  },
+
+  "disk#nvme":{
+    "format":": {percentage_used}/{percentage_free} : {used}/{free}",
+    "unit": "GB",
+    "tooltip": false,
+    "path": "/"
+  },
+
+  "disk#duro1":{
+    "format":"{percentage_used}/{percentage_free} : {used}/{free}",
+    "unit": "GB",
+    "tooltip": false,
+    "path": "/mnt/MESSI/"
+  }
+}
