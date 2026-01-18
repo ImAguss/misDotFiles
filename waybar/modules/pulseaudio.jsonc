@@ -20,6 +20,7 @@
 
   "pulseaudio":{
     "format":"<span font_desc='Symbols Nerd Font 16'> </span> {volume}% ",
+    "format-muted":"<span font_desc='Symbols Nerd Font 16'>󰖁 </span>",
     "markup": "pango",
     "tooltip": false
   }
