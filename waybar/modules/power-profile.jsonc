@@ -1,6 +1,6 @@
 {
     "power-profiles-daemon": {
-      "format": "<span font_desc='Symbols Nerd Font 13'>{icon} </span> ",
+      "format": "<span font_desc='Symbols Nerd Font 13'>{icon}</span> ",
       "tooltip": false,
       "format-icons": {
         "default": "",

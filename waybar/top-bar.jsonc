@@ -1,0 +1,46 @@
+{
+    "include":[
+        "~/.config/waybar/modules/dividers.jsonc",
+
+        "~/.config/waybar/modules/hyprland-workspaces.jsonc",
+        "~/.config/waybar/modules/hyprland-submaps.jsonc",
+
+        "~/.config/waybar/modules/cpu.jsonc",
+        "~/.config/waybar/modules/memory.jsonc",
+        "~/.config/waybar/modules/clock-time.jsonc",
+        "~/.config/waybar/modules/user-distro.jsonc",
+        "~/.config/waybar/modules/clock-date.jsonc",
+        "~/.config/waybar/modules/temperature.jsonc",
+        "~/.config/waybar/modules/disk.jsonc",
+
+        "~/.config/waybar/modules/network.jsonc",
+        "~/.config/waybar/modules/pulseaudio.jsonc",
+        "~/.config/waybar/modules/power-profile.jsonc",
+        "~/.config/waybar/modules/MPRIS.jsonc"
+    ],
+
+    "position": "top",
+    "layer": "bottom",
+    "reload_style_on_change": true,
+    "margin": "0 0 1.5 0",
+    "width": 900,
+    "height": 24,
+    "spacing": 12,
+    "mode": "dock",
+
+
+    "modules-left":[
+        "hyprland/workspaces",
+    ],
+
+    "modules-center":[
+      "clock#time",
+      "group/distro-user",
+      "clock#date",
+    ],
+
+    "modules-right":[
+      "hyprland/submap",
+    ]
+
+}

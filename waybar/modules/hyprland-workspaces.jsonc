@@ -11,9 +11,9 @@
     }
   },
 
-  "hyprland/window#title":{
-    "format": "{title}",
-		"max-length": 30,
-    "icon": false
+  "hyprland/window":{
+    "format": " {title}",
+		"max-length": 40,
+    "icon": true,
   }
 }

@@ -1,0 +1,59 @@
+* {
+  all: initial;
+}
+
+@import "modules-styles/variables.css";
+@import "modules-styles/fonts.css";
+@import "modules-styles/group-window.css";
+@import "modules-styles/pulseaudio-slider.css";
+@import "modules-styles/temperature.css";
+
+
+window#waybar {
+  all: unset;
+  border: 0.5px solid @red0;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  animation: border-pulse 28s ease-in-out infinite alternate;
+  background-color: rgba(31, 26, 36, 0.9);
+}
+
+.modules-left,
+.modules-right,
+.modules-center {
+  padding: 0 25 0 25;
+}
+
+@keyframes border-pulse {
+  0% {
+    border-color: @purple0;
+  }
+
+  15% {
+    border-color: @purple1;
+  }
+
+  30% {
+    border-color: @red0;
+  }
+
+  45% {
+    border-color: @orange0;
+  }
+
+  60% {
+    border-color: @yellow0;
+  }
+
+  75% {
+    border-color: @cyan0;
+  }
+
+  90% {
+    border-color: @blue0;
+  }
+
+  100% {
+    border-color: @purple2;
+  }
+}
