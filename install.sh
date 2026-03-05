@@ -30,7 +30,6 @@ CORE_PKGS=(
   waybar
   rofi-wayland
   thunar
-  dolphin
   nwg-look
   qt6-virtualkeyboard
   qt6-declarative
@@ -39,6 +38,9 @@ CORE_PKGS=(
   qt6-svg
   pipewire pipewire-pulse pipewire-alsa wireplumber
   polkit-kde-agent
+  jq
+  hyprpaper
+  hyprlock
 )
 
 echo "📥 Instalando paquetes principales..."
@@ -60,11 +62,15 @@ sudo systemctl enable sddm
 # 6. Restaurar tus Dotfiles de usuario
 echo "📁 Copiando dotfiles a ~/.config..."
 mkdir -p ~/.config
-
-# Copia todo el contenido de tu carpeta 'dotfiles' a ~/.config/
 cp -r ./config/* ~/.config/
 
-# 7. Cambiar shell a Zsh
+# 7 Copiamos la sintaxis del shell
+cp ./.zshrc ~/
+
+# 8 Copiamos iconos y temas GTK
+cp -r ./gtk-theme/* ~/
+
+# 9. Cambiar shell a Zsh
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
   echo "🐚 Cambiando tu shell a Zsh..."
   chsh -s $(which zsh)
