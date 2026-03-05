@@ -33,6 +33,7 @@ CORE_PKGS=(
   neovim
   tar
   git
+  strawberry
   qt5-wayland
   qt6-wayland
   uwsm
@@ -59,6 +60,10 @@ CORE_PKGS=(
   dkms
   bluez
   bluez-utils
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  zsh-history-substring-search
+  fzf
 )
 
 echo "📥 Instalando paquetes principales..."
@@ -101,4 +106,10 @@ sudo systemctl enable sddm
 sudo systemctl enable bluetooth
 sudo systemctl enable NetworkManager
 
-echo "INSTALACION COMPLETA"
+# 12. Optimizaciones a zsh
+yay -S fzf-tab-git
+mkdir -p ~/.config/zsh/
+
+echo "INSTALACION COMPLETA REINICIANDO..."
+sleep 4
+reboot
