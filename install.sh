@@ -74,9 +74,6 @@ sudo rm -rf /usr/share/sddm
 sudo cp -r sddm-config/sddm/ /usr/share/
 sudo cp sddm-config/sddm.conf /etc/
 
-# Habilitamos SDDM para que arranque con el sistema
-sudo systemctl enable sddm
-
 # 6. Restaurar tus Dotfiles de usuario
 echo "📁 Copiando dotfiles a ~/.config..."
 mkdir -p ~/.config
@@ -86,7 +83,7 @@ cp -r config/* ~/.config/
 cp .zshrc ~/
 
 # 8 Copiamos iconos y temas GTK
-cp -r gtk-theme/* ~/
+cp gtk-theme/.* ~/
 
 # 9. Cambiar shell a Zsh
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
