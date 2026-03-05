@@ -41,6 +41,10 @@ CORE_PKGS=(
   jq
   hyprpaper
   hyprlock
+  linux-headers
+  dkms
+  bluez
+  bluez-utils
 )
 
 echo "📥 Instalando paquetes principales..."
@@ -75,5 +79,10 @@ if [ "$SHELL" != "/usr/bin/zsh" ]; then
   echo "🐚 Cambiando tu shell a Zsh..."
   chsh -s $(which zsh)
 fi
+
+# 10. Configuracion de Xpadneo para joystick xbox
+git clone https://github.com/atar-axis/xpadneo.git /tmp/xpadneo
+cd /tmp/xpadneo
+sudo ./install.sh
 
 echo "INSTALACION COMPLETA"
