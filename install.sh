@@ -24,7 +24,20 @@ fi
 # 3. Paquetes Core (Hyprland, SDDM, Terminal, Audio, etc.)
 CORE_PKGS=(
   hyprland
+  fastfetch
+  brightnessctl
+  gvfs
+  network-manager-applet
+  pavucontrol
+  7zip
+  tar
+  git
+  qt5-wayland
+  qt6-wayland
+  uwsm
+  xdg-desktop-portal-hyprland
   sddm
+  python-pip
   kitty
   zsh
   waybar
@@ -84,5 +97,10 @@ fi
 git clone https://github.com/atar-axis/xpadneo.git /tmp/xpadneo
 cd /tmp/xpadneo
 sudo ./install.sh
+
+# 11. Habilitar servicios
+sudo systemctl enable sddm
+sudo systemctl enable bluetooth
+sudo systemctl enable NetworkManager
 
 echo "INSTALACION COMPLETA"
