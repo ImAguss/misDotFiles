@@ -4,15 +4,26 @@
 * {
     font: "CaskaydiaCove Nerd Font 16";
 
-    bg0:  #24242480;
-    bg1:  #363636;
-    bg2:  #f5f5f520;
-    bg3:  #f5f5f540;
-    bg4:  #0860f2E6;
-
-    fg0:  #f5f5f5;
-    fg1:  #f5f5f580;
-
+    bg0:  #1f1a24aa;
+    bg1:  #2a2232aa;
+    bg2:  #4a3a57aa;
+    bg3:  #886593aa;
+    bg4:  #6f4683aa;
+    
+    fg0:  #e6e1ebff;
+    fg1:  #a0a0a2ff;
+    
+    purple0: #6f4683;
+    purple1: #886593;
+    purple2: #b58ac6;
+    
+    red0:    #e23e64;
+    orange0: #e69d25;
+    yellow0: #f2d16b;
+    
+    cyan0:   #4fb3a5;
+    blue0:   #5fafd7;
+    
     background-color: transparent;
     text-color:       @fg0;
     padding:          0px;
@@ -21,8 +32,8 @@
 
 configuration {
   show-icons: true;
-  drun-icon-theme: "Dracula";  /* o el que tengas instalado */
-  icon-theme: "Dracula";       /* fallback */
+  drun-icon-theme: "candy-icons";
+  icon-theme: "candy-icons";
 }
 
 window {
