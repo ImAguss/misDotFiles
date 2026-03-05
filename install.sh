@@ -76,19 +76,19 @@ sudo pacman -S --needed --noconfirm nerd-fonts
 # 5. Configuración de SDDM (Reemplazo bruto como pediste)
 echo "🖥️ Configurando SDDM..."
 sudo rm -rf /usr/share/sddm
-sudo cp -r sddm-config/sddm/ /usr/share/
-sudo cp sddm-config/sddm.conf /etc/
+sudo cp -r ./sddm-config/sddm/ /usr/share/
+sudo cp ./sddm-config/sddm.conf /etc/
 
 # 6. Restaurar tus Dotfiles de usuario
 echo "📁 Copiando dotfiles a ~/.config..."
 mkdir -p ~/.config
-cp -r config/* ~/.config/
+cp -r ./config/* ~/.config/
 
 # 7 Copiamos la sintaxis del shell
 cp .zshrc ~/
 
 # 8 Copiamos iconos y temas GTK
-cp -r gtk-theme/.* ~/
+cp -r ./gtk-theme/.* ~/
 
 # 9. Cambiar shell a Zsh
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
