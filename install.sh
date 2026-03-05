@@ -83,7 +83,7 @@ cp -r config/* ~/.config/
 cp .zshrc ~/
 
 # 8 Copiamos iconos y temas GTK
-cp gtk-theme/.* ~/
+cp -r gtk-theme/.* ~/
 
 # 9. Cambiar shell a Zsh
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
