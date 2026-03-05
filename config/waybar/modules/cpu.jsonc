@@ -1,0 +1,29 @@
+{
+  "group/infopc":{
+    "orientation":"horizontal",
+    "modules":[
+      "cpu",
+      "temperature#cpu",
+      "memory",
+    ],
+  },
+
+  "cpu":{
+    "format":"<span font_desc='Symbols Nerd Font 14'> </span>{usage}%  ",
+    "tooltip": false
+  },
+
+  "temperature#cpu":{
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "format": "<span font_desc='Symbols Nerd Font 14'></span> {temperatureC}󰔄  ",
+    "critical-threshold": 90,
+    "warning-threshold": 75,
+    "tooltip": false
+  },
+
+  "memory":{
+    "format": "<span font_desc='Symbols Nerd Font 14'> </span>{percentage}%",
+    "tooltip":false
+  },
+
+}

@@ -1,0 +1,33 @@
+/* ROUNDED THEME FOR ROFI - CUSTOM PURPLE VARIANT */
+/* Adaptado a la paleta de tu configuración de Hyprland */
+
+* {
+    /* Fondos */
+    bg0:    #1F1A24F2;  /* Fondo principal con un toque de transparencia */
+    bg1:    #2A2232;    /* Fondo de elementos seleccionados */
+    bg2:    #4A3A5780;  /* Fondo de la barra de búsqueda / Hover */
+    bg3:    #B58AC6F2;  /* Color de acento (Púrpura claro) para elementos destacados */
+
+    /* Texto (Foreground) */
+    fg0:    #E6E1EB;    /* Texto principal */
+    fg1:    #FFFFFF;    /* Texto resaltado */
+    fg2:    #A0A0A2;    /* Texto secundario / Sugerencias */
+    fg3:    #6F4683;    /* Color de contraste para el fondo de acento */
+}
+
+@import "template.rasi"
+
+element selected {
+    /* El texto del elemento seleccionado ahora usará el fondo oscuro para contraste */
+    background-color: @bg3;
+    text-color:       @bg1;
+}
+
+element-icon selected {
+    background-color: @bg3;
+}
+
+element-text selected {
+    background-color: @bg3;
+    text-color:       @bg1;
+}

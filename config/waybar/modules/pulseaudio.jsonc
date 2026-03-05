@@ -1,0 +1,22 @@
+{
+  "group/audio":{
+    "orientation": "horizontal",
+    "modules":[
+      "pulseaudio",
+      "pulseaudio/slider"
+    ],
+  },
+
+  "pulseaudio/slider":{
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+  },
+
+  "pulseaudio":{
+    "format":"<span font_desc='Symbols Nerd Font 16'> </span>{volume}% ",
+    "format-muted":"<span font_desc='Symbols Nerd Font 16'>󰖁 </span> ",
+    "markup": "pango",
+    "tooltip": false
+  }
+}

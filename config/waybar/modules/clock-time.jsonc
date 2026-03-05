@@ -1,0 +1,11 @@
+{
+  "custom/separador":{
+    "format": "-",
+  },
+
+  "clock#time":{
+    "format": "  {:%H:%M}",
+    "tooltip": false,
+    "timezone": "America/Argentina/San_Juan"
+  }
+}

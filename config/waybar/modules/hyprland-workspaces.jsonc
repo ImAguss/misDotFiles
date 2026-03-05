@@ -1,0 +1,24 @@
+{
+  "hyprland/workspaces":{
+    "persistent-workspaces":{
+      "*": 4,
+    },
+    "format": " {icon} ",
+    "format-icons":{
+      "default": " ",
+      "active": " "
+    },
+  },
+
+  "hyprland/workspaces#taskbar":{
+    "active-only": true,
+    "format": " {windows} ",
+    "workspace-taskbar":{
+      "enable": true,
+      "update-active-window": true,
+      "format": "{icon}",
+      "orientation": "horizontal",
+      "icon-size": 21
+    },
+  },
+}

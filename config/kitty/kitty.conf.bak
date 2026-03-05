@@ -1,0 +1,49 @@
+# Fuente Minecraft con configuración óptima para pixel art
+font_family Minecraft Default
+font_size 14
+
+# Renderizado para fuentes pixeladas
+font_features none
+disable_ligatures always
+hinting full
+adjust_column_width 0
+adjust_line_height 0
+
+# Si aún se ve borroso, prueba desactivar antialiasing:
+# macos_threshold 6
+# windows_style_threshold 6
+
+# Cursor
+cursor_shape block
+cursor_blink_interval 0
+cursor_stop_blinking_after 0
+
+# Scrollback y selección
+scrollback_lines 2000
+copy_on_select yes
+select_by_word_characters @-./_~?&=%+#a
+
+# Ventana
+remember_window_size no
+window_border_width 1pt
+draw_minimal_borders yes
+window_padding_width 10
+hide_window_decorations yes
+confirm_os_window_close 0
+
+# Pestañas
+tab_bar_style powerline
+tab_bar_edge top
+
+# Colores y transparencia
+include nord-theme.conf
+background_opacity 0.64
+dynamic_background_opacity yes
+inactive_text_alpha 0.6
+
+# Sonido
+enable_audio_bell no
+bell_on_tab "🔔 "
+
+# Ratón
+mouse_hide_wait 0

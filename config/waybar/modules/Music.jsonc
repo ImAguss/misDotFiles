@@ -1,0 +1,11 @@
+{
+  "mpris": {
+	"format": "{player_icon} <i>{title}</i>",
+	"format-paused": "{player_icon} <i><s>{title}</s></i>",
+	"player-icons": {
+		"default": " ",
+		"mpv": "🎵"
+	},
+	"ignored-players": ["firefox"]
+}
+}
