@@ -1,6 +1,0 @@
-{
-  "clock#date":{
-    "format":"󰃭 {:%A/%d}",
-    "tooltip": false
-  }
-}
