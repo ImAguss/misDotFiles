@@ -16,6 +16,7 @@ CORE_PKGS=(
   fastfetch
   brightnessctl
   noto-fonts-emoji
+  wl-clipboard
   gvfs
   network-manager-applet
   pavucontrol
