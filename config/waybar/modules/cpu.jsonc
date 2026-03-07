@@ -5,6 +5,7 @@
       "cpu",
       "temperature#cpu",
       "memory",
+      "battery"
     ],
   },
 
@@ -25,5 +26,13 @@
     "format": "<span font_desc='Symbols Nerd Font 14'> </span>{percentage}%",
     "tooltip":false
   },
-
+  "battery": {
+      "bat": "BAT2",
+      "interval": 60,
+      "format": "{capacity}% {icon}",
+      "format-icons": {
+          "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+          "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+      },
+  }
 }
