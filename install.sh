@@ -53,6 +53,14 @@ CORE_PKGS=(
   zsh-syntax-highlighting
   zsh-history-substring-search
   fzf
+  ripgrep
+  unzip
+  lazygit
+  stylua
+  fish
+  ruby
+  tectonic
+  fd
 )
 
 echo "Instalando paquetes principales..."
@@ -106,8 +114,8 @@ else
   echo "✅ yay ya está instalado."
 fi
 
-# 12. Instalar fzf-tab para buscador mas bonito en la terminal
-yay -S fzf-tab-git
+# 12. Instalar dependencias del yay
+yay -S --needed --noconfirm fzf-tab-git luarocks
 
 # 13. Optimizaciones a zsh
 mkdir -p ~/.config/zsh/
