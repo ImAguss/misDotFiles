@@ -15,6 +15,7 @@ CORE_PKGS=(
   hyprland
   fastfetch
   brightnessctl
+  noto-fonts-emoji
   gvfs
   network-manager-applet
   pavucontrol
@@ -53,6 +54,7 @@ CORE_PKGS=(
   zsh-syntax-highlighting
   zsh-history-substring-search
   fzf
+  eza
   ripgrep
   unzip
   lazygit
