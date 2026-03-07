@@ -13,6 +13,8 @@ sudo pacman -S --needed --noconfirm base-devel git
 # 2. Paquetes Core (Hyprland, SDDM, Terminal, Audio, etc.)
 CORE_PKGS=(
   hyprland
+  imagemagick
+  gscan2pdf
   fastfetch
   brightnessctl
   noto-fonts-emoji
@@ -23,6 +25,7 @@ CORE_PKGS=(
   7zip
   neovim
   tar
+  bat
   git
   strawberry
   qt5-wayland
