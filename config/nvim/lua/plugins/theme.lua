@@ -1,6 +1,8 @@
 return {
-  "LazyVim/LazyVim",
-  opts = {
-    colorscheme = "cyberdream",
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "currents",
+    },
   },
 }
