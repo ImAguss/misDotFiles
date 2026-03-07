@@ -115,7 +115,7 @@ else
 fi
 
 # 12. Instalar dependencias del yay
-yay -S --needed --noconfirm fzf-tab-git luarocks
+yay -S --needed --noconfirm fzf-tab-git luarocks auto-cpufreq
 
 # 13. Optimizaciones a zsh
 mkdir -p ~/.config/zsh/
