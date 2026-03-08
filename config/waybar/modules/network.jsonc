@@ -2,6 +2,6 @@
   "network":{
     "format-wifi": "  {essid}",
     "format-ethernet": "󰈀 {ifname} - {ipaddr}",
-    "format-dissconected": "󰖪 Sin Internet"
+    "format-disconnected": "󰖪 Sin Internet"
   }
 }
